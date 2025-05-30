@@ -14,7 +14,7 @@ An AI-powered documentation analyzer and rewriter that evaluates the readability
 
 ### 1. Clone the Repository
 
-git clone https://github.com/yourusername/mo-doc-optimizer.git
+git clone: https://github.com/SwetaPrasaddd/AI-Doc-Analyzer
 cd AI_Doc_Analyzer
 
 ### 2. Install Dependencies
@@ -36,16 +36,16 @@ PORT=5000
 ### 4. Run the Application
 
 Terminal 1 (Backend):
-- cd server
+- cd backend
 - node app.js
 
 Terminal 2 (Frontend):
-- cd client
+- cd frontend
 - npm run dev
-Access the app at: http://localhost:3000
+Access the app at: http://localhost:5173
 
 ## Assumptions Made
-- Users will provide publicly accessible - - MoEngage article URLs
+- Users will provide publicly accessible MoEngage article URLs
 
 - Only textual content is extracted (images, scripts, videos are ignored)
 
