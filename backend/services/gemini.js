@@ -42,7 +42,7 @@ ${content.substring(0, 10000)}
     `;
 
         const response = await axios.post(
-            `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyCQo08Ug_44XysT2MVIgLkIizdlhAkk768`,
+            `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${GEMINI_API_KEY}`,
             {
                 contents: [
                     {
