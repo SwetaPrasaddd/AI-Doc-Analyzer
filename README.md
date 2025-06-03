@@ -23,15 +23,16 @@ Install required packages for both backend and frontend:
 - cd backend
 - npm install
 
-- cd ../frontend
+- cd frontend
 - npm install
 
 ### 3. Set Up Environment Variables
 Create a .env file in the backend folder with the following:
-
+```
 GEMINI_API_KEY=your_google_gemini_api_key
 PORT=5000
-⚠️ Do not commit your API key.
+```
+⚠️ Do not create .env file in the root folder.
 
 ### 4. Run the Application
 
